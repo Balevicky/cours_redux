@@ -1,10 +1,9 @@
 {
   "posts": [
     {
-      "title": "Lorem ipsum dolor sit amet",
       "author": "Patrice",
-      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati voluptates non, odit, sequi sit pariatur iusto modi magni dolorem, cupiditate corrupti! Recusandae quaerat vitae fugiat mollitia blanditiis, temporibus eum! Ipsum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati voluptates non, odit, sequi sit pariatur iusto modi magni dolorem, cupiditate corrupti! Recusandae quaerat vitae fugiat mollitia blanditiis, temporibus eum! Ipsum?",
-      "likes": 27,
+      "title": "Lorem ipsum dolor sit amet",
+      "likes": 28,
       "id": "1"
     },
     {
@@ -22,30 +21,29 @@
       "id": "3"
     },
     {
-      "id": "c986"
-    },
-    {
-      "id": "5069"
-    },
-    {
-      "id": "b5c5",
       "author": "user42",
       "title": "post1",
-      "content": "C\"est le premier post",
-      "likes": 0
+      "content": "HA je suis là",
+      "likes": 10,
+      "id": "b5c5"
     },
     {
-      "id": "3cd6",
-      "author": "user42",
       "title": "salut",
-      "content": "le  post 2",
-      "likes": 0
+      "likes": 44,
+      "id": "3cd6"
+    },
+    {
+      "author": "user42",
+      "title": "GOLI BI",
+      "content": "OUI C'EST BIEN MOI",
+      "likes": 0,
+      "id": "3f9c"
     }
   ],
   "user": [
     {
       "pseudo": "user42",
-      "likes": 0,
+      "likes": 2,
       "age": 30,
       "id": "1"
     }

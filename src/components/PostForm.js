@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { addPost } from "../actions/post.action";
+import { addPost, getPosts } from "../actions/post.action";
 
 const PostForm = () => {
   const form = useRef();
@@ -18,6 +18,8 @@ const PostForm = () => {
       likes: 0,
     };
     await dispatch(addPost(postData));
+    dispatch(getPosts());
+    form.current.reset();
   };
   return (
     <div className="form-container">
@@ -31,3 +33,4 @@ const PostForm = () => {
 };
 
 export default PostForm;
+// arreter à 1h 04 mn 54s
